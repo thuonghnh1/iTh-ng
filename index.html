@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iThương</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="menu_head">
+            <nav>
+                <a href="index.html">Trang Chủ</a>
+                <a href="#">Sản Phẩm</a>
+                <a href="#">Giới Thiệu</a>
+                <a href="#">iThương</a>
+            </nav>
+            <nav class="cart" id="cart">
+                <ion-icon size="large" name="cart-outline"></ion-icon>
+                <span>0</span>                  
+            </nav>
+            <div class="shoppingCart">
+                <ul class="list"></ul>
+                <div class="total">
+                  <p>Tổng giá trị đơn hàng: <span class="price"></span></p>
+                </div>
+              </div>
+              
+        </div>
+    </header>
+    <marquee behavior="SCROLL" scrolldelay="100" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()"
+        direction="left">
+        <ion-icon name="notifications-sharp"></ion-icon><ion-icon name="notifications-sharp"></ion-icon><ion-icon
+            name="notifications-sharp"></ion-icon>
+        Ưu đãi giảm giá 25$ khi mua iPhone 14 promax bằng thẻ Vietcombank chỉ có tại iThương
+    </marquee>
+
+    <!-- <div class="slide">
+        <div id="anh">
+            <img id="slider" src="https://i.pinimg.com/564x/2f/30/47/2f304776881952c457f96501543d19ce.jpg">
+        </div>
+        <div id="span">
+        <button onclick="back()"><ion-icon name="arrow-back-outline"></ion-icon></button>
+        <button onclick="next()"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+    </div>
+    </div>  -->
+
+    <div class="slider">
+        <div class="wrapper_slider">
+            <img src="https://i.pinimg.com/564x/9d/2c/0d/9d2c0d9f4ee4c3e121bc211b8d2f95fa.jpg" />
+        </div>
+        <div class="wrapper_btn">
+            <button>first</button>
+            <button>prev</button>
+            <button>next</button>
+            <button>last</button>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <div class="A1" data-product-id="1" data-product-name="Iphone 14 Pro Max" data-product-price="2500">
+            <div class="sp">
+                <h3>Iphone 14 Pro Max</h3>
+                <img src="https://i.pinimg.com/564x/df/a8/18/dfa8180982001243e9c8ce1d0a141fb9.jpg"
+                    alt="Iphone 14 Pro Max">
+            </div>
+            <div class="gia">
+                <del class="old">2800$</del>
+                <span class="new">2500$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 13 Pro Max</h3>
+                <img src="https://i.pinimg.com/564x/2f/0a/18/2f0a1839b14154c1018468e377d93d00.jpg"
+                    alt="Iphone 13 Pro Max">
+            </div>
+            <div class="gia">
+                <del class="old">2600$</del>
+                <span class="new">2200$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 12 Pro Max</h3>
+                <img src="https://i.pinimg.com/564x/d5/53/1b/d5531b5a7225be40fb7303844ec96fc4.jpg"
+                    alt="Iphone 12 Pro Max">
+            </div>
+            <div class="gia">
+                <del class="old">1900$</del>
+                <span class="new">1700$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 11 Pro Max</h3>
+                <img src="https://i.pinimg.com/564x/15/59/57/1559579c4c4b933ef63b07dba4c9d098.jpg"
+                    alt="Iphone 11 Pro Max">
+            </div>
+            <div class="gia">
+                <del class="old">1600$</del>
+                <span class="new">1000$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 14 Pro</h3>
+                <img src="https://i.pinimg.com/564x/66/ee/d2/66eed25a1a3cbc201a6b661786ae63e9.jpg"
+                    alt="Iphone 14 Pro">
+            </div>
+            <div class="gia">
+                <del class="old">2750$</del>
+                <span class="new">2450$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 13 Pro</h3>
+                <img src="https://i.pinimg.com/564x/82/97/24/829724f881ab994fdfd811335ae6e9e2.jpg"
+                    alt="Iphone 13 Pro">
+            </div>
+            <div class="gia">
+                <del class="old">2550$</del>
+                <span class="new">2250$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 12 Pro</h3>
+                <img src="https://i.pinimg.com/564x/95/d1/a9/95d1a95cdf11a541365035bcaef1ad71.jpg"
+                    alt="Iphone 12 Pro">
+            </div>
+            <div class="gia">
+                <del class="old">1850$</del>
+                <span class="new">1650$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="A1">
+            <div class="sp">
+                <h3>Iphone 11 Pro</h3>
+                <img src="https://i.pinimg.com/564x/34/01/23/3401239d3a64ff9460927ee69602434f.jpg"
+                    alt="Iphone 11 Pro">
+            </div>
+            <div class="gia">
+                <del class="old">1500$</del>
+                <span class="new">999$</span>
+            </div>
+            <div class="icon">
+                <ion-icon class="heart" name="heart-outline"></ion-icon>
+                <ion-icon name="add-outline"></ion-icon>
+                <a href="#cart"><ion-icon name="basket-outline"></ion-icon></a>
+            </div>
+        </div>
+    </div><br>
+
+    <div id="container">
+        <h1>Giới thiệu Dynamic Island</h1>
+        <div id="player-container">
+            <video id="player" width="640" src="/PD07341_Assignment/img&vid/Iphone14.mp4" height="360">
+                <source src="/PD07341_Assignment/img&vid/Iphone14.mp4" type="video/mp4" />
+            </video>
+            <div id="controls">
+                <button onclick="playPause()">Play/Pause</button>
+                <button onclick="stopV()">Stop</button>
+                <button onclick="replay ()">Replay</button>
+                <button onclick="turnUp ()">Volume (+)</button>
+                <button onclick="turnDown ()">Volume (-)</button>
+                <button onclick="mute ()">Mute/Unmute</button>
+            </div>
+        </div>
+    </div> <br>
+
+    <form action="" class="form">
+        <fieldset>
+            <h2>Đăng ký đặt mua trước iPhone 15</h2>
+            <div>
+                <input class="ten" type="text" placeholder="Name"> <br>
+                <input class="email" type="email" id="email" placeholder="Email"> <br>
+                <input class="phone" type="text" placeholder="Phone"><br>
+                <textarea placeholder="Note" cols="50" rows="10"></textarea>
+                <div>
+                    <button class="button">Đặt hàng</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <footer>
+        <div class="Thương">© 2023. Bản quyền thiết kế thuộc về Huỳnh Ngọc Hoài Thương</div>
+        </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

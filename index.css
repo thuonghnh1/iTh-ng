@@ -1,0 +1,201 @@
+header {
+    width: 100%;
+    background-image: url(/PD07341_Assignment/img&vid/iThuong.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f242d;
+    height: 60px;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 50px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: #2F58CD;
+}
+
+.cart {
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.cart:hover {
+    color: #2F58CD;
+}
+
+.shoppingCart {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+marquee {
+    color: #2E4F4F;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.slider {
+    margin-left: 25%;
+}
+
+.wrapper_slider img {
+    width: 60%;
+    height: 25%;
+    object-fit: cover;
+}
+
+.wrapper_btn {
+    margin-left: 20%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.A1 img {
+    max-width: 90%;
+    height: 50%;
+    margin: 0 5%;
+    object-fit: cover;
+}
+
+.A1 {
+    position: relative;
+    width: calc(25% - 24px);
+    border: 2px solid #E3ACF9;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.old {
+    color: #A0C3D2;
+}
+
+.new {
+    color: red;
+    font-weight: bold;
+}
+
+.gia {
+    margin-bottom: 0px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20%;
+    transform: translate(-50%, -50%);
+    display: none;
+    cursor: pointer;
+}
+
+.icon a {
+    color: black;
+}
+
+.A1 .icon.show {
+    display: block;
+}
+
+.active {
+    color: red;
+}
+
+
+/* media */
+#container {
+    text-align: center;
+}
+
+#container h1 {
+    color: #66347F;
+}
+
+video {
+    border-radius: 20px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+/* form*/
+form {
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    background-image: url('https://i.pinimg.com/564x/94/63/5c/94635c0da7e6125c2425336a1969c7f9.jpg');
+    border: none;
+}
+
+h2 {
+    color: #fff;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px 110px;
+}
+
+.button {
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: none;
+    background-color: #66347F;
+    color: #fff;
+}
+
+.button:hover {
+    box-shadow: inset 0 0 5px #C9EEFF;
+}
+
+/* footer {
+    color: #fff;
+    height: 50%;
+} */
+footer .Thương{
+    color: #fff;
+    background-color: #1f242d;
+    padding: 20px;
+    text-align: center;
+}
